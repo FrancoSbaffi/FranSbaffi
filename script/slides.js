@@ -1,34 +1,34 @@
 const slides = [
   {
-    slideTitle: "Brainstorm OS",
+    slideTitle: "Snortwatch",
     slideDescription:
-      "A concept UI for a neural-thinking workspace. Designed to visualize raw ideas, tangled thoughts, and clean execution — all at once.",
+      "Simulated live brute-force and reverse shell attacks, then used Snort to detect, block, and stop them with custom IPS rules.",
     slideUrl: "/project",
-    slideTags: ["Web Design", "UI/UX", "Concept UI", "Creative Dev"],
+    slideTags: ["Cybersecurity", "Snort", "Intrusion Detection", "Defensive Ops"],
     slideImg: "/work/slider-img-1.jpg",
   },
   {
-    slideTitle: "Orange Room",
+    slideTitle: "OSINT Takedown",
     slideDescription:
-      "A surreal microsite exploring control, uniformity, and digital disconnect. Built with scroll-reactive animations and bold, brutalist layout.",
+      "Investigated Tropic Trooper malware using OSINT, reverse engineering, and MITRE mapping to deliver actionable threat intel.",
     slideUrl: "/project",
-    slideTags: ["Creative Dev", "Scroll UX", "Experimental", "Visual Story"],
+    slideTags: ["Cyber Threat Intelligence", "Malware Analysis", "MITRE ATT&CK", "OSINT"],
     slideImg: "/work/slider-img-2.jpg",
   },
   {
-    slideTitle: "Futureschool",
+    slideTitle: "Windows Core",
     slideDescription:
-      "A quirky concept for a 60s-style AI education platform. Handcrafted visuals meet structured layouts for a playful learning interface.",
+      "Built and secured a full Windows domain lab with AD, DNS, GPO, and backups—ready for attack simulation and defense testing.",
     slideUrl: "/project",
-    slideTags: ["UI Design", "Theme Concept", "Playful UX", "Frontend"],
+    slideTags: ["Windows Server", "Active Directory", "Infrastructure", "GPO Security"],
     slideImg: "/work/slider-img-3.jpg",
   },
   {
-    slideTitle: "Mindwave Grid",
+    slideTitle: "TShark Intel Dive",
     slideDescription:
-      "A visual identity experiment for a VR-based ideation tool. Dynamic grids, floating modules, and warm tones bring structure to wild thinking.",
+      "Dissected DNS and HTTP traffic with TShark to uncover a Trojan-linked domain, extract evidence, and validate the threat.",
     slideUrl: "/project",
-    slideTags: ["VR Design", "Grid System", "Creative Tech", "3D UI"],
+    slideTags: ["Network Forensics", "TShark", "Malware Analysis", "PCAP Investigation"],
     slideImg: "/work/slider-img-4.jpg",
   },
 ];
