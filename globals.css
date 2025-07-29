@@ -21,6 +21,11 @@ body {
   font-family: "Host Grotesk";
   background-color: var(--base-100);
   color: var(--base-300);
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 img {
