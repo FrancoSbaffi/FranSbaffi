@@ -61,7 +61,6 @@ body, .container, .notes-hero-blog {
   flex-direction: row;
   align-items: center;
   min-width: 0;
-  flex: 1 1 0%;
   gap: 0.2em;
   overflow: hidden;
 }
@@ -71,7 +70,7 @@ body, .container, .notes-hero-blog {
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 1.1em 1.5em 1.1em 1.5em;
+  padding: 0.85em 1.5em 0.85em 1.5em;
   border-radius: 12px;
   gap: 0.5em;
   overflow: hidden;
@@ -88,7 +87,7 @@ body, .container, .notes-hero-blog {
 }
 
 .project-title {
-  flex: 0 0 auto;
+  flex: 0 1 auto;
   min-width: 0;
   font-size: 1.08rem;
   font-weight: 600;
@@ -115,11 +114,14 @@ body, .container, .notes-hero-blog {
 }
 
 .project-divider {
-  flex: 1 1 auto;
+  flex: 0 0 auto;
+  width: auto;
   height: 1px;
   background-color: #bbb;
   margin-left: 0.75em;
   margin-right: 0.75em;
+  margin-top: 0;
+  margin-bottom: 0;
   min-width: 24px;
   max-width: 100%;
   align-self: center;
@@ -135,11 +137,9 @@ body, .container, .notes-hero-blog {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  flex-shrink: 0;
-  flex: 0 0 auto;
-  /* max-width eliminado para que el divider se ajuste dinámicamente */
+  flex-shrink: 1;
+  flex: 0 1 auto;
   display: block;
-  vertical-align: middle;
 }
 @media (max-width: 900px) {
   .project-copy {
@@ -210,6 +210,8 @@ body, .container, .notes-hero-blog {
     min-width: 16px;
     margin-left: 0.3em;
     margin-right: 0.3em;
+    flex: 0 0 auto;
+    width: auto;
   }
   .project-year {
     font-size: 0.85rem;
