@@ -11,6 +11,7 @@ export default defineConfig({
         project: resolve(__dirname, "project.html"),
         contact: resolve(__dirname, "contact.html"),
         notes: resolve(__dirname, 'notes.html'),
+        start: resolve(__dirname, 'blog/start-in-cybersecurity.html'),
       },
     },
     assetsInclude: [
