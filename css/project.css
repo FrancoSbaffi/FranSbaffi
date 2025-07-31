@@ -1,3 +1,76 @@
+/* --- Responsive Snapshots igual que en projects --- */
+/* Elimina el override de mobile para snapshots, mantén el layout horizontal con scroll igual que desktop */
+@media (max-width: 900px) {
+  .project-snapshots-wrapper {
+    width: 500vw;
+    height: 100svh;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 0;
+    position: relative;
+    transform: translateX(0%);
+    scroll-snap-type: x mandatory;
+  }
+  .project-snapshot {
+    flex: 1 0 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    height: 100svh;
+    scroll-snap-align: start;
+  }
+  .project-snapshot img {
+    width: 65%;
+    height: 65%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border: 1px dashed var(--base-secondary-dark);
+    border-radius: 8px;
+    max-width: 600px;
+  }
+  .project-snapshots {
+    height: 100svh;
+    min-height: unset;
+  }
+}
+
+@media (max-width: 600px) {
+  .project-snapshots-wrapper {
+    width: 500vw;
+    height: 100svh;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 0;
+    position: relative;
+    transform: translateX(0%);
+    scroll-snap-type: x mandatory;
+  }
+  .project-snapshot {
+    flex: 1 0 100vw;
+    min-width: 100vw;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+  }
+  .project-snapshot img {
+    width: 90vw;
+    height: auto;
+    max-width: 98vw;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+  }
+  .project-snapshots {
+    height: 100svh;
+    min-height: unset;
+  }
+}
 .project-header {
   position: relative;
   width: 100vw;
